@@ -5,12 +5,9 @@
 @tailwind utilities;
 
 body {
-    color: rgb(var(--foreground-rgb));
-    background: linear-gradient(
-        to bottom,
-        transparent,
-        rgb(var(--background-end-rgb))
-      )
-      rgb(var(--background-start-rgb));
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
   }
-  
