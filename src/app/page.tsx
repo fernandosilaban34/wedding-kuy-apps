@@ -4,16 +4,11 @@ import Header from "./layout/Header";
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <div className="container mx-auto">
-        <div className="flex flex-col h-screen justify-between">
-          <div className="content">
-            <Header/>
+        <div className="flex justify-center">
+          {/* <Footer /> */}
+          <div className="flex h-screen w-[450px] bg-slate-400">
+            <Header />
           </div>
-          <Footer />
         </div>
-      </div>
-    </>
   );
 }

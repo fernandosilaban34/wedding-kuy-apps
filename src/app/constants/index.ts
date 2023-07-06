@@ -33,3 +33,16 @@ export const Wedding = [
   { name: "Udin Setiono Pasaribu", age: 20, gender: "male" },
   { name: "Belinda Sihaan", age: 20, gender: "female" },
 ];
+
+export const user = [
+  {
+    nama_event: "wedding",
+    tanggal_pelaksanaan: "2021-12-31T17:00:00.000Z",
+    Nama: "Palma",
+  },
+  {
+    nama_event: "wedding",
+    tanggal_pelaksanaan: "2021-12-31T17:00:00.000Z",
+    Nama: "Fernando",
+  },
+];

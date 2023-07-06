@@ -14,4 +14,4 @@ export const UseCountdown = (lenght: number) => {
     }, [second])
 
     return { second }
-}
+}   
