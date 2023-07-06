@@ -12,7 +12,7 @@ export type Couple = {
 
 function Header() {
   const [couple, setCouple] = useState<Couple[]>(Wedding);
-  const { second } = UseCountdown(60)
+  const { second } = UseCountdown(80)
 
 
   
