@@ -14,9 +14,22 @@ module.exports = {
       },
       fontFamily: {
         DancingScript:['Dancing Script', 'cursive'],
-        Chathura:['Chathura', 'sans-serif']
-
+        Chathura:['Chathura', 'sans-serif'],
+        Allura:['Allura', 'cursive'],
+        ReenieBeanie:['Reenie Beanie', 'cursive'],
+        Caveat:['Caveat', 'cursive'],
+        GreatVibes:['Great Vibes', 'cursive'],
       }
+    },
+    keyframes: {
+      wave: {
+        '0%': { transform: 'translateY(42px)' , opacity: 0.1 },
+        '50%': { transform: 'translateY(-3px)' , opacity: 0.5 },
+        '100%': { transform: 'translateY(0px)' }
+      },
+    },
+    animation: {
+      'waving-hand': 'wave 3s linear',
     },
   },
   plugins: [],

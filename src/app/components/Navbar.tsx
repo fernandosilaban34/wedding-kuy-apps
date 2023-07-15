@@ -4,10 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 function Navbar() {
-
-  
-
-
   return (
     <nav className="fixed w-full bg-white lg:px-40 px-4">
       <div className="flex flex-row py-4 justify-between">
